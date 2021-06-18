@@ -148,7 +148,7 @@ namespace Hangman_Magnus_I_
             }//while (!won && lives > 0)
 
             if (won)
-                Console.WriteLine("----------You won!------------");
+                Console.WriteLine("-----You won! The word was '{0}'  ------------", wordToGuess);
             else
                 Console.WriteLine("You lost! It was '{0}'", wordToGuess);
 
